@@ -1,0 +1,39 @@
+body {
+  font-family: 'Zilla Slab', sans-serif;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.navbar-brand {
+  font-size: 22px;
+}
+
+.page {
+    height: 600px;
+    padding-top: 20px;
+}
+
+.page > .title {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ededed;
+}
+
+a[id= "aboutme"]:target ~ .page {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+
+#button-scroll-top {
+  bottom: 20px;
+  right: 30px;
+  cursor: pointer;
+  position: fixed;
+  z-index: 99999;
+}
